@@ -16,9 +16,9 @@ public class Javawhile2 {
         
         System.out.print("Digite um numero inteiro: ");
         int N = scanner.nextInt();
-        
-        System.out.println("Numeros de 1 ate " + N + ":");
-        while (int i = 1; i <= N; i++) {
+        int contador= 0;
+     
+        while ( i <= N; i++) {
             System.out.println(i);
         }
         
