@@ -14,11 +14,11 @@ public class Javawhile2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
-        System.out.print("Digite um numero inteiro N: ");
+        System.out.print("Digite um numero inteiro: ");
         int N = scanner.nextInt();
         
         System.out.println("Numeros de 1 ate " + N + ":");
-        for (int i = 1; i <= N; i++) {
+        while (int i = 1; i <= N; i++) {
             System.out.println(i);
         }
         
